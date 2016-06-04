@@ -90,11 +90,11 @@ section {
 #gallery li {
 	display: block;
 	float: left;
-	width: 23%;
+	width: 22%;
 	cursor: pointer;
 	border-radius: 5px;
 	box-sizing: border-box;
-	margin: 10px 14px 7px 0;
+	margin: 0px 12px 7px 0;
 	position: relative;
 }
 
@@ -105,9 +105,7 @@ section {
 }
 
 
-#gallery img:hover {
-	border: none;
-}
+
 footer {
 	background: #464645;
 	padding-top: 10px;
@@ -119,21 +117,20 @@ footer {
 .overlay{
 	display:none;
 	background:#FF5A5F url(../img/overlay.png) no-repeat top center;
-	border: 1px solid #FF5A5F;
 	color:#fff;
 	position:absolute;
 	top:0;
 	left:0;
 	z-index:100;
-	width:100%;
+	width:101%;
 	height:100%;
-	padding:20px;
+	padding:16px;
 	border-radius:5px;
 	box-sizing:border-box;
 	pointer-events:none;
 }
 
-.overlay h3{
+.overlay h2{
 	margin:0;
 	padding:0;
 }
